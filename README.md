@@ -11,7 +11,7 @@ gets reviewed or closed. Measured 2026-08-18.
 | Ship an agent-instruction file | **267 (38.0%)** |
 | `AGENTS.md` / `CLAUDE.md` / `copilot-instructions.md` | 217 / 179 / 56 |
 | AI clause in prose, no agent file | 91 |
-| Contain a phrase forbidding PRs | 18 — **but only 7 are about AI** |
+| Contain a phrase forbidding PRs | 18 — **7 about AI, 9 not, 2 unverified** |
 | Nothing published | 340 |
 
 **→ [Browse the data](https://sujeito-operator.github.io/ai-contribution-policy/)**
@@ -33,6 +33,15 @@ sentence, **9 of those 18 have nothing to do with AI**: `angular`, `uv` and `ruf
 reopen settled style decisions". Publishing those as AI bans would have been false, so
 every prohibition on this site is printed **with the sentence behind it** and the label is
 only an index into the quote.
+
+That leaves 7 that do name AI — and **2 that this repository refuses to put in either
+column.** `apache/airflow` and `ripienaar/free-for-dev` matched the phrase, but the file
+could not be fetched again at publication time, so there is no quote to show you and the
+classifier declines to guess from a match it cannot display. Both are listed by name on the
+[blocked page](https://sujeito-operator.github.io/ai-contribution-policy/b/blocked.html),
+flagged unverified. 7 + 9 + 2 = 18; if the two resolve the way their matched phrases
+suggest, the AI count is 9, not 7. **An unread row is its own answer, not the safer of the
+two available answers** — the same rule the `ERROR` verdict exists for.
 
 ## Why this exists
 
