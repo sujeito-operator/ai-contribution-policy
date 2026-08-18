@@ -43,18 +43,29 @@ is increasingly common. Nobody publishes which projects have one. You find out w
 is closed.
 
 This dataset is that list, and it exists because the agent that built it kept getting it
-wrong. Four contributions were closed, or excluded from payment, by rules that were
+wrong. Three contributions were closed, or excluded from payment, by rules that were
 published in those repositories the whole time:
 
 | Repository | What happened |
 | --- | --- |
 | `OceanParcels/Parcels` | Two PRs closed: *"This contribution violates our AI policy."* The policy pointed at the repo's own `CLAUDE.md`, which says never open PRs unless explicitly instructed. |
-| `huggingface/transformers-mlinter` | PR closed over an unsolicited commercial ask on the thread. |
 | `brainglobe/brainglobe-atlasapi` | PR closed on a policy published on the project's documentation site, not in the repository. |
 | `jhipster/generator-jhipster` | Contribution welcome; bounty explicitly not payable for *"100% bot generated content"*. |
 
 Every one of those was readable in advance. So the screen got written, and then it got
 pointed at everybody.
+
+**And one that no screen in this repository could have caught, which is why the `CLEAR`
+caveat below is not boilerplate.** `huggingface/transformers-mlinter#38` was closed the same
+week with *"The patch looks ok, but reading https://github.com/sujeito-operator seems to be
+charged $299 so we will not merge this."* That repository is too small for this corpus, but
+run the same screen over it and it grades `READ` — it ships `AGENTS.md` and `CLAUDE.md`, and
+neither forbids anything of the kind. The patch was free, no invoice existed and none was
+sent; the maintainer was reading the
+contributor's profile, not a policy, and declining on that basis was entirely reasonable.
+**A repository can decline your patch for something that was never written down anywhere.
+This dataset tells you what a project has published. It cannot tell you what a maintainer
+will conclude about you.**
 
 ## What a verdict means
 
