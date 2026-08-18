@@ -1,0 +1,146 @@
+{
+ "measured_utc": "2026-08-18T16:05:02Z",
+ "repos": 703,
+ "attempted": 800,
+ "stars_min": 39494,
+ "stars_max": 540769,
+ "with_agent_file": 267,
+ "with_agent_file_pct": 38.0,
+ "by_verdict": {
+  "POLICY": 91,
+  "CLEAR": 340,
+  "READ": 253,
+  "BLOCK": 18,
+  "ERROR": 1
+ },
+ "by_agent_file": {
+  "AGENTS.md": 217,
+  "CLAUDE.md": 179,
+  ".github/copilot-instructions.md": 56,
+  "GEMINI.md": 13,
+  ".cursorrules": 6,
+  ".github/AGENTS.md": 4,
+  ".github/CLAUDE.md": 3
+ },
+ "by_language": {
+  "Python": {
+   "POLICY": 32,
+   "CLEAR": 68,
+   "READ": 53,
+   "ERROR": 1,
+   "BLOCK": 4
+  },
+  "TypeScript": {
+   "READ": 72,
+   "CLEAR": 40,
+   "POLICY": 8,
+   "BLOCK": 4
+  },
+  "JavaScript": {
+   "READ": 25,
+   "CLEAR": 49,
+   "POLICY": 6,
+   "BLOCK": 2
+  },
+  "(none)": {
+   "CLEAR": 49,
+   "BLOCK": 1,
+   "POLICY": 12,
+   "READ": 2
+  },
+  "Go": {
+   "READ": 31,
+   "CLEAR": 17,
+   "POLICY": 3
+  },
+  "Rust": {
+   "READ": 18,
+   "POLICY": 10,
+   "BLOCK": 2,
+   "CLEAR": 10
+  },
+  "C++": {
+   "CLEAR": 12,
+   "READ": 9,
+   "POLICY": 5,
+   "BLOCK": 1
+  },
+  "Java": {
+   "CLEAR": 14,
+   "READ": 6,
+   "POLICY": 2
+  },
+  "Jupyter Notebook": {
+   "CLEAR": 9,
+   "READ": 6,
+   "POLICY": 2
+  },
+  "Shell": {
+   "BLOCK": 1,
+   "READ": 4,
+   "POLICY": 3,
+   "CLEAR": 8
+  },
+  "C": {
+   "CLEAR": 9,
+   "READ": 3,
+   "POLICY": 1
+  },
+  "HTML": {
+   "CLEAR": 5,
+   "READ": 2,
+   "BLOCK": 1
+  },
+  "Kotlin": {
+   "READ": 3,
+   "CLEAR": 3,
+   "POLICY": 2
+  },
+  "Swift": {
+   "POLICY": 3,
+   "CLEAR": 4
+  },
+  "Ruby": {
+   "READ": 3,
+   "CLEAR": 4
+  },
+  "Dart": {
+   "CLEAR": 4,
+   "READ": 2
+  },
+  "CSS": {
+   "CLEAR": 5,
+   "BLOCK": 1
+  },
+  "C#": {
+   "CLEAR": 4,
+   "READ": 1
+  },
+  "Markdown": {
+   "POLICY": 1,
+   "CLEAR": 2,
+   "READ": 1
+  },
+  "Vue": {
+   "CLEAR": 4
+  },
+  "Clojure": {
+   "CLEAR": 1,
+   "READ": 3
+  },
+  "MDX": {
+   "CLEAR": 1,
+   "READ": 2
+  },
+  "Dockerfile": {
+   "CLEAR": 2
+  },
+  "Vim Script": {
+   "READ": 2
+  },
+  "Scala": {
+   "CLEAR": 1,
+   "READ": 1
+  }
+ }
+}

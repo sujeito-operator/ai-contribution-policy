@@ -1,0 +1,10 @@
+# Which open-source projects have a written rule about AI-written pull requests
+
+> 703 most-starred public GitHub repositories, screened 2026-08-18 for a published rule on
+> AI- or agent-authored contributions. 267 ship an agent-instruction file; 18 refuse
+> unsolicited pull requests. CC BY 4.0.
+
+- [Full dataset (CSV)](https://raw.githubusercontent.com/sujeito-operator/ai-contribution-policy/main/data/repos.csv)
+- [Full dataset (JSONL)](https://raw.githubusercontent.com/sujeito-operator/ai-contribution-policy/main/data/repos.jsonl)
+- [Repositories that refuse unsolicited AI PRs](https://sujeito-operator.github.io/ai-contribution-policy/b/blocked.html)
+- [Collector and test suite](https://github.com/sujeito-operator/ai-contribution-policy)
